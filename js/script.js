@@ -20,6 +20,34 @@ for ( var key in studente ) {
 
 // 3 Creare un array di oggetti di studenti
 
+var studenti = [
+  {
+    nome: "alfredo",
+
+    cognome: "ficocelli",
+
+    eta: 34
+  },
+
+  {
+    nome: "luca",
+
+    cognome: "rossi",
+
+    eta: 32
+  },
+
+  {
+    nome: "giorgio",
+
+    cognome: "bianchi",
+
+    eta: 30
+  },
+
+];
+
+
 
 // 4 Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
