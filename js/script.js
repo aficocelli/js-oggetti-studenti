@@ -12,6 +12,11 @@ var studente = {
 
 // 2 Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
+for ( var key in studente ) {
+
+  console.log(key + " --> " + studente[key]);
+
+};
 
 // 3 Creare un array di oggetti di studenti
 
